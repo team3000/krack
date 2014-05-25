@@ -13,10 +13,9 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-//#import "UIFont+AppFont.h"
-//#import "UIColor+AppColor.h"
+#import "UIFont+AppFont.h"
+#import "UIColor+AppColor.h"
 #import "NSString+Helpers.h"
-//#import "NSURL+Helpers.h"
 
 #define RADIANS_TO_DEGREES(radians) ((radians) * (180.0 / M_PI))
 #define DEGREES_TO_RADIANS(angle) ((angle) / 180.0 * M_PI)

@@ -16,30 +16,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3Q-13-odP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4es-3J-gcM" customClass="BaseImageView">
+                                <rect key="frame" x="-406" y="-9" width="1123" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3Q-13-odP">
                                 <rect key="frame" x="0.0" y="252" width="320" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BQ9-LQ-fh5" customClass="FBLoginView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BQ9-LQ-fh5" customClass="FBLoginView">
                                         <rect key="frame" x="10" y="10" width="300" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="itl-Sy-vVw"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="0MV-qr-JrR"/>
                                     <constraint firstAttribute="width" constant="320" id="Yyw-ge-m3n"/>
+                                    <constraint firstAttribute="centerX" secondItem="BQ9-LQ-fh5" secondAttribute="centerX" id="elZ-2R-vY1"/>
+                                    <constraint firstItem="BQ9-LQ-fh5" firstAttribute="leading" secondItem="R3Q-13-odP" secondAttribute="leading" constant="10" id="ezY-oQ-yQA"/>
+                                    <constraint firstItem="BQ9-LQ-fh5" firstAttribute="centerY" secondItem="R3Q-13-odP" secondAttribute="centerY" id="rMQ-NM-7Vb"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kracklogo-300x296.png" translatesAutoresizingMaskIntoConstraints="NO" id="hw6-S4-lbp" customClass="BaseImageView">
+                                <rect key="frame" x="85" y="31" width="150" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="R3Q-13-odP" secondAttribute="trailing" id="KXO-cH-mLU"/>
                             <constraint firstItem="R3Q-13-odP" firstAttribute="centerY" secondItem="shX-dG-DmC" secondAttribute="centerY" id="YrQ-ju-uBK"/>
                             <constraint firstItem="R3Q-13-odP" firstAttribute="leading" secondItem="shX-dG-DmC" secondAttribute="leading" id="lEf-7a-UOi"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundImageView" destination="4es-3J-gcM" id="VPh-Nt-bUq"/>
                         <outlet property="facebookLoginView" destination="BQ9-LQ-fh5" id="tdE-Qt-AsW"/>
                         <segue destination="8YX-ce-x5E" kind="modal" identifier="HomeViewControllerSegue" id="9me-s4-sOS"/>
                     </connections>
@@ -233,7 +249,7 @@
                                                     </collectionViewCell>
                                                 </cells>
                                             </collectionView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flip.gif" translatesAutoresizingMaskIntoConstraints="NO" id="nzK-Iv-HRU">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flip.gif" translatesAutoresizingMaskIntoConstraints="NO" id="nzK-Iv-HRU" customClass="BaseImageView">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -287,7 +303,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tvJ-Kx-B7L" customClass="BaseImageView">
-                                                <rect key="frame" x="60" y="10" width="40" height="40"/>
+                                                <rect key="frame" x="60" y="15" width="40" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYr-cr-inm" customClass="BaseButton">
@@ -303,6 +319,7 @@
                                         <connections>
                                             <outlet property="addButton" destination="DYr-cr-inm" id="2AD-or-xa7"/>
                                             <outlet property="avatarImageView" destination="tvJ-Kx-B7L" id="Qxx-C5-Ha5"/>
+                                            <outlet property="coverImageView" destination="nzK-Iv-HRU" id="nLE-MJ-tEG"/>
                                             <outlet property="followerCountLabel" destination="e13-kz-fnR" id="vvt-SM-Iz2"/>
                                             <outlet property="followerLabel" destination="VIS-KQ-Wh6" id="8CG-Kk-RLR"/>
                                             <outlet property="followingCountLabel" destination="0Qm-r7-P4K" id="lfF-cU-g0q"/>
@@ -402,6 +419,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Kracklogo-300x296.png" width="300" height="296"/>
         <image name="flip.gif" width="750" height="412"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

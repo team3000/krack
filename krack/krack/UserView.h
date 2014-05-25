@@ -15,6 +15,7 @@
 
 @interface UserView : BaseView
 
+@property (nonatomic, strong) IBOutlet BaseImageView *coverImageView;
 @property (nonatomic, strong) IBOutlet BaseImageView *avatarImageView;
 @property (nonatomic, strong) IBOutlet BaseLabel *fullNameLabel;
 @property (nonatomic, strong) IBOutlet BaseLabel *placeLabel;

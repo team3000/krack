@@ -11,47 +11,52 @@
 
 @implementation UIFont (AppFont)
 
-+ (UIFont*)defaultFont
++ (UIFont*)font
 {
 	return [UIFont fontWithName:@"HelveticaNeue" size:15.0];
 }
 
-+ (UIFont*)defaultMediumFont
++ (UIFont*)mediumFont
 {
 	return [UIFont fontWithName:@"HelveticaNeue" size:17.0];
 }
 
-+ (UIFont*)defaultSelectedFont
++ (UIFont*)selectedFont
 {
 	return [UIFont fontWithName:@"HelveticaNeue" size:15];
 }
 
-+ (UIFont*)defaultSmallFont
++ (UIFont*)smallFont
 {
 	return [UIFont fontWithName:@"HelveticaNeue" size:11];
 }
 
-+ (UIFont*)defaultTitleFont
++ (UIFont*)titleFont
 {
 	return [UIFont fontWithName:@"HelveticaNeue" size:20.0];
 }
 
-+ (UIFont*)defaultMediumTitleFont
++ (UIFont*)boldTitleFont
+{
+	return [UIFont fontWithName:@"HelveticaNeue-Bold" size:20.0];
+}
+
++ (UIFont*)mediumTitleFont
 {
 	return [UIFont fontWithName:@"HelveticaNeue" size:30.0];
 }
 
-+ (UIFont*)defaultBigTitleFont
++ (UIFont*)bigTitleFont
 {
 	return [UIFont fontWithName:@"HelveticaNeue" size:40.0];
 }
 
-+ (UIFont*)defaultSubtitleFont
++ (UIFont*)subtitleFont
 {
 	return [UIFont fontWithName:@"HelveticaNeue" size:13];
 }
 
-+ (UIFont*)defaultBoldFont
++ (UIFont*)boldFont
 {
 	return [UIFont fontWithName:@"Helvetica-Bold" size:17];
 }

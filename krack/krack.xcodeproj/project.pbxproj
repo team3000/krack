@@ -42,6 +42,10 @@
 		90255F49193256D900DD54D0 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F48193256D900DD54D0 /* BaseButton.m */; };
 		90255F4C19325B6900DD54D0 /* UIFont+AppFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F4B19325B6900DD54D0 /* UIFont+AppFont.m */; };
 		90255F5219325CFE00DD54D0 /* UIColor+AppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F5119325CFE00DD54D0 /* UIColor+AppColor.m */; };
+		90255F5819326B6B00DD54D0 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F5719326B6B00DD54D0 /* UIImage+GIF.m */; };
+		90255F5B19326D3900DD54D0 /* skate_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90255F5919326D3900DD54D0 /* skate_0.gif */; };
+		90255F5C19326D3900DD54D0 /* skate_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90255F5A19326D3900DD54D0 /* skate_1.gif */; };
+		90255F5E19326FE600DD54D0 /* Kracklogo-300x296.png in Resources */ = {isa = PBXBuildFile; fileRef = 90255F5D19326FE600DD54D0 /* Kracklogo-300x296.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +117,11 @@
 		90255F4B19325B6900DD54D0 /* UIFont+AppFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AppFont.m"; sourceTree = "<group>"; };
 		90255F5019325CFE00DD54D0 /* UIColor+AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColor.h"; sourceTree = "<group>"; };
 		90255F5119325CFE00DD54D0 /* UIColor+AppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColor.m"; sourceTree = "<group>"; };
+		90255F5619326B6B00DD54D0 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		90255F5719326B6B00DD54D0 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		90255F5919326D3900DD54D0 /* skate_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = skate_0.gif; sourceTree = "<group>"; };
+		90255F5A19326D3900DD54D0 /* skate_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = skate_1.gif; sourceTree = "<group>"; };
+		90255F5D19326FE600DD54D0 /* Kracklogo-300x296.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kracklogo-300x296.png"; sourceTree = "<group>"; };
 		D4F631253A9E450AA18FA865 /* libPods-krack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-krack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -176,11 +185,11 @@
 		90255ECA193221C500DD54D0 /* krack */ = {
 			isa = PBXGroup;
 			children = (
+				90255F1C19323B7B00DD54D0 /* Assets */,
 				90255F4E19325B7F00DD54D0 /* Extenssions */,
 				90255F321932440900DD54D0 /* App */,
 				90255F31193240D700DD54D0 /* Models */,
 				90255F2819323FD900DD54D0 /* Base */,
-				90255F1C19323B7B00DD54D0 /* Assets */,
 				90255F1F19323F2400DD54D0 /* Views */,
 				90255EFF193226DA00DD54D0 /* View Controllers */,
 				90255ED3193221C500DD54D0 /* AppDelegate.h */,
@@ -302,6 +311,9 @@
 		90255F1C19323B7B00DD54D0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				90255F5D19326FE600DD54D0 /* Kracklogo-300x296.png */,
+				90255F5919326D3900DD54D0 /* skate_0.gif */,
+				90255F5A19326D3900DD54D0 /* skate_1.gif */,
 				90255F1D19323B8C00DD54D0 /* flip.gif */,
 			);
 			name = Assets;
@@ -439,8 +451,8 @@
 		90255F4E19325B7F00DD54D0 /* Extenssions */ = {
 			isa = PBXGroup;
 			children = (
-				90255F4F19325CE200DD54D0 /* Color */,
-				90255F4D19325B7000DD54D0 /* Font */,
+				90255F5419326B5100DD54D0 /* Image */,
+				90255F5319326B4A00DD54D0 /* App */,
 			);
 			name = Extenssions;
 			sourceTree = "<group>";
@@ -452,6 +464,32 @@
 				90255F5119325CFE00DD54D0 /* UIColor+AppColor.m */,
 			);
 			name = Color;
+			sourceTree = "<group>";
+		};
+		90255F5319326B4A00DD54D0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90255F4F19325CE200DD54D0 /* Color */,
+				90255F4D19325B7000DD54D0 /* Font */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		90255F5419326B5100DD54D0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				90255F5519326B5600DD54D0 /* GIF */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		90255F5519326B5600DD54D0 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				90255F5619326B6B00DD54D0 /* UIImage+GIF.h */,
+				90255F5719326B6B00DD54D0 /* UIImage+GIF.m */,
+			);
+			name = GIF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -535,10 +573,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90255F5B19326D3900DD54D0 /* skate_0.gif in Resources */,
+				90255F5C19326D3900DD54D0 /* skate_1.gif in Resources */,
 				90255EDB193221C500DD54D0 /* Main_iPad.storyboard in Resources */,
 				90255EE3193221C500DD54D0 /* Images.xcassets in Resources */,
 				90255F1E19323B8C00DD54D0 /* flip.gif in Resources */,
 				90255ED8193221C500DD54D0 /* Main_iPhone.storyboard in Resources */,
+				90255F5E19326FE600DD54D0 /* Kracklogo-300x296.png in Resources */,
 				90255ECF193221C500DD54D0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90255F5819326B6B00DD54D0 /* UIImage+GIF.m in Sources */,
 				90255F451932469600DD54D0 /* BaseJSONModel.m in Sources */,
 				90255F2619323F5C00DD54D0 /* BaseView.m in Sources */,
 				90255F0D1932301500DD54D0 /* UserViewController.m in Sources */,

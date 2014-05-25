@@ -10,15 +10,16 @@
 
 @interface UIFont (AppFont)
 
-+ (UIFont*)defaultFont;
-+ (UIFont*)defaultMediumFont;
-+ (UIFont*)defaultSelectedFont;
-+ (UIFont*)defaultSmallFont;
-+ (UIFont*)defaultTitleFont;
-+ (UIFont*)defaultMediumTitleFont;
-+ (UIFont*)defaultBigTitleFont;
-+ (UIFont*)defaultSubtitleFont;
-+ (UIFont*)defaultBoldFont;
++ (UIFont*)font;
++ (UIFont*)mediumFont;
++ (UIFont*)selectedFont;
++ (UIFont*)smallFont;
++ (UIFont*)titleFont;
++ (UIFont*)boldTitleFont;
++ (UIFont*)mediumTitleFont;
++ (UIFont*)bigTitleFont;
++ (UIFont*)subtitleFont;
++ (UIFont*)boldFont;
 + (UIFont*)buttonFont;
 
 @end

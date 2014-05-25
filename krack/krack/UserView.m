@@ -11,6 +11,37 @@
 
 @implementation UserView
 
+
+- (id)initWithFrame:(CGRect)frame {
+	self = [super initWithFrame:frame];
+	if (self) {
+		[self configure];
+	}
+	return self;
+}
+
+- (void)awakeFromNib {
+	[super awakeFromNib];
+	
+	[self configure];
+}
+
+- (void)configure {
+	self.fullNameLabel.font = [UIFont titleFont];
+	self.placeLabel.font = [UIFont boldTitleFont];
+	
+	self.followerCountLabel.font = [UIFont titleFont];
+	self.followingCountLabel.font = [UIFont titleFont];
+
+	self.followerLabel.font = [UIFont mediumFont];
+	self.followingLabel.font = [UIFont mediumFont];
+
+	[self.coverImageView animateWithFileName:@"flip"];
+	
+	self.avatarImageView.isRounded = YES;
+}
+
+
 - (void)setUser:(User *)user {
 	_user = user;
 	if (user) {

@@ -10,4 +10,11 @@
 
 @interface BaseImageView : UIImageView
 
+- (void)animateWithFileName:(NSString *)fileName;
+- (void)stopAnimate;
+- (BOOL)isAnimating;
+
+@property (nonatomic, assign) BOOL isRounded;
+
+
 @end

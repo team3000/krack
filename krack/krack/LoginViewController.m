@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 #import "AppSession.h"
 #import "User+Manager.h"
+#import "UIImage+GIF.h"
 
 @interface LoginViewController ()
 
@@ -31,7 +32,7 @@
     // Do any additional setup after loading the view.
 	[self configure];
 	
-//	[[AppSession defaultSession] closeAndClearSession];
+	[self.backgroundImageView animateWithFileName:@"flip"];
 }
 
 - (void)configure {
@@ -50,7 +51,7 @@
 	
 	if (self.fbUser != nil)
 		return;
-			
+	
 	
 	self.fbUser = user;
 	
