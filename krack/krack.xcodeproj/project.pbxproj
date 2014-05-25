@@ -39,6 +39,9 @@
 		90255F3D1932447000DD54D0 /* User+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F3C1932447000DD54D0 /* User+Manager.m */; };
 		90255F411932460E00DD54D0 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F401932460E00DD54D0 /* Address.m */; };
 		90255F451932469600DD54D0 /* BaseJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F441932469600DD54D0 /* BaseJSONModel.m */; };
+		90255F49193256D900DD54D0 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F48193256D900DD54D0 /* BaseButton.m */; };
+		90255F4C19325B6900DD54D0 /* UIFont+AppFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F4B19325B6900DD54D0 /* UIFont+AppFont.m */; };
+		90255F5219325CFE00DD54D0 /* UIColor+AppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F5119325CFE00DD54D0 /* UIColor+AppColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +107,12 @@
 		90255F401932460E00DD54D0 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
 		90255F431932469600DD54D0 /* BaseJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseJSONModel.h; sourceTree = "<group>"; };
 		90255F441932469600DD54D0 /* BaseJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseJSONModel.m; sourceTree = "<group>"; };
+		90255F47193256D900DD54D0 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		90255F48193256D900DD54D0 /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
+		90255F4A19325B6900DD54D0 /* UIFont+AppFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AppFont.h"; sourceTree = "<group>"; };
+		90255F4B19325B6900DD54D0 /* UIFont+AppFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AppFont.m"; sourceTree = "<group>"; };
+		90255F5019325CFE00DD54D0 /* UIColor+AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColor.h"; sourceTree = "<group>"; };
+		90255F5119325CFE00DD54D0 /* UIColor+AppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColor.m"; sourceTree = "<group>"; };
 		D4F631253A9E450AA18FA865 /* libPods-krack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-krack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -167,6 +176,7 @@
 		90255ECA193221C500DD54D0 /* krack */ = {
 			isa = PBXGroup;
 			children = (
+				90255F4E19325B7F00DD54D0 /* Extenssions */,
 				90255F321932440900DD54D0 /* App */,
 				90255F31193240D700DD54D0 /* Models */,
 				90255F2819323FD900DD54D0 /* Base */,
@@ -327,6 +337,7 @@
 		90255F2819323FD900DD54D0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				90255F46193256C000DD54D0 /* Button */,
 				90255F2D1932400600DD54D0 /* Label */,
 				90255F2C1932400000DD54D0 /* ImageView */,
 			);
@@ -405,6 +416,42 @@
 				90255F441932469600DD54D0 /* BaseJSONModel.m */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		90255F46193256C000DD54D0 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				90255F47193256D900DD54D0 /* BaseButton.h */,
+				90255F48193256D900DD54D0 /* BaseButton.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		90255F4D19325B7000DD54D0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				90255F4A19325B6900DD54D0 /* UIFont+AppFont.h */,
+				90255F4B19325B6900DD54D0 /* UIFont+AppFont.m */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		90255F4E19325B7F00DD54D0 /* Extenssions */ = {
+			isa = PBXGroup;
+			children = (
+				90255F4F19325CE200DD54D0 /* Color */,
+				90255F4D19325B7000DD54D0 /* Font */,
+			);
+			name = Extenssions;
+			sourceTree = "<group>";
+		};
+		90255F4F19325CE200DD54D0 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				90255F5019325CFE00DD54D0 /* UIColor+AppColor.h */,
+				90255F5119325CFE00DD54D0 /* UIColor+AppColor.m */,
+			);
+			name = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -551,6 +598,7 @@
 				90255F1B1932323700DD54D0 /* NotificationsViewController.m in Sources */,
 				90255F051932270000DD54D0 /* BaseViewController.m in Sources */,
 				90255F2219323F4100DD54D0 /* UserView.m in Sources */,
+				90255F4C19325B6900DD54D0 /* UIFont+AppFont.m in Sources */,
 				90255F3A1932445300DD54D0 /* User.m in Sources */,
 				90255F101932302200DD54D0 /* MapViewController.m in Sources */,
 				90255ED5193221C500DD54D0 /* AppDelegate.m in Sources */,
@@ -558,9 +606,11 @@
 				90255F131932303000DD54D0 /* HomeViewController.m in Sources */,
 				90255F171932313D00DD54D0 /* SessionViewController.m in Sources */,
 				90255F361932442000DD54D0 /* AppSession.m in Sources */,
+				90255F49193256D900DD54D0 /* BaseButton.m in Sources */,
 				90255F301932401900DD54D0 /* BaseLabel.m in Sources */,
 				90255ED1193221C500DD54D0 /* main.m in Sources */,
 				90255F3D1932447000DD54D0 /* User+Manager.m in Sources */,
+				90255F5219325CFE00DD54D0 /* UIColor+AppColor.m in Sources */,
 				90255F02193226F300DD54D0 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

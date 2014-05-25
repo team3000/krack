@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Team3000. All rights reserved.
 //
 
-//#import "JSONModel.h"
 #import "BaseJSONModel.h"
 #import "Address.h"
 
