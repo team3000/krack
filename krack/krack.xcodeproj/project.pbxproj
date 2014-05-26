@@ -46,6 +46,14 @@
 		90255F5B19326D3900DD54D0 /* skate_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90255F5919326D3900DD54D0 /* skate_0.gif */; };
 		90255F5C19326D3900DD54D0 /* skate_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90255F5A19326D3900DD54D0 /* skate_1.gif */; };
 		90255F5E19326FE600DD54D0 /* Kracklogo-300x296.png in Resources */ = {isa = PBXBuildFile; fileRef = 90255F5D19326FE600DD54D0 /* Kracklogo-300x296.png */; };
+		90255F6219329AFE00DD54D0 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F6119329AFE00DD54D0 /* BaseTableView.m */; };
+		90255F6519329CBF00DD54D0 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 90255F6419329CBF00DD54D0 /* Base.m */; };
+		907A76101932AA820093E2EE /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 907A760E1932AA820093E2EE /* MenuTableViewCell.m */; };
+		907A76111932AA820093E2EE /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907A760F1932AA820093E2EE /* MenuTableViewCell.xib */; };
+		907A76161932BC860093E2EE /* MenuCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 907A76151932BC860093E2EE /* MenuCollectionView.m */; };
+		907A76191932BCCB0093E2EE /* MenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 907A76181932BCCB0093E2EE /* MenuCollectionViewCell.m */; };
+		907A761B1932BCDA0093E2EE /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907A761A1932BCDA0093E2EE /* MenuCollectionViewCell.xib */; };
+		907A76201932C5550093E2EE /* SeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 907A761F1932C5550093E2EE /* SeparatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +130,20 @@
 		90255F5919326D3900DD54D0 /* skate_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = skate_0.gif; sourceTree = "<group>"; };
 		90255F5A19326D3900DD54D0 /* skate_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = skate_1.gif; sourceTree = "<group>"; };
 		90255F5D19326FE600DD54D0 /* Kracklogo-300x296.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kracklogo-300x296.png"; sourceTree = "<group>"; };
+		90255F6019329AFE00DD54D0 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		90255F6119329AFE00DD54D0 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		90255F6319329CBF00DD54D0 /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		90255F6419329CBF00DD54D0 /* Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
+		907A760D1932AA820093E2EE /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		907A760E1932AA820093E2EE /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		907A760F1932AA820093E2EE /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		907A76141932BC860093E2EE /* MenuCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionView.h; sourceTree = "<group>"; };
+		907A76151932BC860093E2EE /* MenuCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionView.m; sourceTree = "<group>"; };
+		907A76171932BCCB0093E2EE /* MenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewCell.h; sourceTree = "<group>"; };
+		907A76181932BCCB0093E2EE /* MenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewCell.m; sourceTree = "<group>"; };
+		907A761A1932BCDA0093E2EE /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		907A761E1932C5550093E2EE /* SeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorView.h; sourceTree = "<group>"; };
+		907A761F1932C5550093E2EE /* SeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorView.m; sourceTree = "<group>"; };
 		D4F631253A9E450AA18FA865 /* libPods-krack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-krack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -185,6 +207,9 @@
 		90255ECA193221C500DD54D0 /* krack */ = {
 			isa = PBXGroup;
 			children = (
+				907A761C1932C5360093E2EE /* View */,
+				907A76121932BC570093E2EE /* collection */,
+				907A760B1932AA5E0093E2EE /* Cell */,
 				90255F1C19323B7B00DD54D0 /* Assets */,
 				90255F4E19325B7F00DD54D0 /* Extenssions */,
 				90255F321932440900DD54D0 /* App */,
@@ -349,9 +374,12 @@
 		90255F2819323FD900DD54D0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				90255F5F19329AE700DD54D0 /* TableView */,
 				90255F46193256C000DD54D0 /* Button */,
 				90255F2D1932400600DD54D0 /* Label */,
 				90255F2C1932400000DD54D0 /* ImageView */,
+				90255F6319329CBF00DD54D0 /* Base.h */,
+				90255F6419329CBF00DD54D0 /* Base.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -492,6 +520,70 @@
 			name = GIF;
 			sourceTree = "<group>";
 		};
+		90255F5F19329AE700DD54D0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				90255F6019329AFE00DD54D0 /* BaseTableView.h */,
+				90255F6119329AFE00DD54D0 /* BaseTableView.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		907A760B1932AA5E0093E2EE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				907A760C1932AA660093E2EE /* Menu */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		907A760C1932AA660093E2EE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				907A760D1932AA820093E2EE /* MenuTableViewCell.h */,
+				907A760E1932AA820093E2EE /* MenuTableViewCell.m */,
+				907A760F1932AA820093E2EE /* MenuTableViewCell.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		907A76121932BC570093E2EE /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				907A76131932BC5E0093E2EE /* Menu */,
+			);
+			name = collection;
+			sourceTree = "<group>";
+		};
+		907A76131932BC5E0093E2EE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				907A76141932BC860093E2EE /* MenuCollectionView.h */,
+				907A76151932BC860093E2EE /* MenuCollectionView.m */,
+				907A76171932BCCB0093E2EE /* MenuCollectionViewCell.h */,
+				907A76181932BCCB0093E2EE /* MenuCollectionViewCell.m */,
+				907A761A1932BCDA0093E2EE /* MenuCollectionViewCell.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		907A761C1932C5360093E2EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				907A761D1932C53D0093E2EE /* Separator */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		907A761D1932C53D0093E2EE /* Separator */ = {
+			isa = PBXGroup;
+			children = (
+				907A761E1932C5550093E2EE /* SeparatorView.h */,
+				907A761F1932C5550093E2EE /* SeparatorView.m */,
+			);
+			name = Separator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -573,12 +665,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907A76111932AA820093E2EE /* MenuTableViewCell.xib in Resources */,
 				90255F5B19326D3900DD54D0 /* skate_0.gif in Resources */,
 				90255F5C19326D3900DD54D0 /* skate_1.gif in Resources */,
 				90255EDB193221C500DD54D0 /* Main_iPad.storyboard in Resources */,
 				90255EE3193221C500DD54D0 /* Images.xcassets in Resources */,
 				90255F1E19323B8C00DD54D0 /* flip.gif in Resources */,
 				90255ED8193221C500DD54D0 /* Main_iPhone.storyboard in Resources */,
+				907A761B1932BCDA0093E2EE /* MenuCollectionViewCell.xib in Resources */,
 				90255F5E19326FE600DD54D0 /* Kracklogo-300x296.png in Resources */,
 				90255ECF193221C500DD54D0 /* InfoPlist.strings in Resources */,
 			);
@@ -636,23 +730,29 @@
 				90255F451932469600DD54D0 /* BaseJSONModel.m in Sources */,
 				90255F2619323F5C00DD54D0 /* BaseView.m in Sources */,
 				90255F0D1932301500DD54D0 /* UserViewController.m in Sources */,
+				90255F6519329CBF00DD54D0 /* Base.m in Sources */,
 				90255F411932460E00DD54D0 /* Address.m in Sources */,
 				90255F1B1932323700DD54D0 /* NotificationsViewController.m in Sources */,
 				90255F051932270000DD54D0 /* BaseViewController.m in Sources */,
 				90255F2219323F4100DD54D0 /* UserView.m in Sources */,
 				90255F4C19325B6900DD54D0 /* UIFont+AppFont.m in Sources */,
 				90255F3A1932445300DD54D0 /* User.m in Sources */,
+				907A76161932BC860093E2EE /* MenuCollectionView.m in Sources */,
 				90255F101932302200DD54D0 /* MapViewController.m in Sources */,
+				907A76101932AA820093E2EE /* MenuTableViewCell.m in Sources */,
 				90255ED5193221C500DD54D0 /* AppDelegate.m in Sources */,
 				90255F2B19323FEB00DD54D0 /* BaseImageView.m in Sources */,
 				90255F131932303000DD54D0 /* HomeViewController.m in Sources */,
 				90255F171932313D00DD54D0 /* SessionViewController.m in Sources */,
 				90255F361932442000DD54D0 /* AppSession.m in Sources */,
+				90255F6219329AFE00DD54D0 /* BaseTableView.m in Sources */,
 				90255F49193256D900DD54D0 /* BaseButton.m in Sources */,
 				90255F301932401900DD54D0 /* BaseLabel.m in Sources */,
+				907A76201932C5550093E2EE /* SeparatorView.m in Sources */,
 				90255ED1193221C500DD54D0 /* main.m in Sources */,
 				90255F3D1932447000DD54D0 /* User+Manager.m in Sources */,
 				90255F5219325CFE00DD54D0 /* UIColor+AppColor.m in Sources */,
+				907A76191932BCCB0093E2EE /* MenuCollectionViewCell.m in Sources */,
 				90255F02193226F300DD54D0 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

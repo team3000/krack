@@ -28,17 +28,17 @@
 
 + (UIFont*)smallFont
 {
-	return [UIFont fontWithName:@"HelveticaNeue" size:11];
+	return [UIFont fontWithName:@"HelveticaNeue-Light" size:8];
 }
 
 + (UIFont*)titleFont
 {
-	return [UIFont fontWithName:@"HelveticaNeue" size:20.0];
+	return [UIFont fontWithName:@"HelveticaNeue-Light" size:20.0];
 }
 
 + (UIFont*)boldTitleFont
 {
-	return [UIFont fontWithName:@"HelveticaNeue-Bold" size:20.0];
+	return [UIFont fontWithName:@"HelveticaNeue" size:20.0];
 }
 
 + (UIFont*)mediumTitleFont

@@ -9,10 +9,14 @@
 #import "BaseViewController.h"
 #import "User.h"
 #import "UserView.h"
+#import "BaseTableView.h"
+#import "MenuCollectionView.h"
 
 @interface UserViewController : BaseViewController
 
 @property (nonatomic, strong) User *user;
 @property (strong, nonatomic) IBOutlet UserView *userView;
+@property (strong, nonatomic) IBOutlet BaseTableView *tableView;
+@property (strong, nonatomic) IBOutlet MenuCollectionView *menuCollectionView;
 
 @end

@@ -11,6 +11,8 @@
 #import "BaseButton.h"
 #import "BaseImageView.h"
 
+#import <JCRBlurView.h>
+
 #import "User.h"
 
 @interface UserView : BaseView
@@ -30,4 +32,5 @@
 
 @property (nonatomic, strong) User *user;
 
+@property (nonatomic, strong) IBOutlet JCRBlurView *blurView;
 @end

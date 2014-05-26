@@ -8,6 +8,7 @@
 
 #import "UserView.h"
 #import <UIImageView+AFNetworking.h>
+#import <UIImage+BlurredFrame.h>
 
 @implementation UserView
 
@@ -33,19 +34,38 @@
 	self.followerCountLabel.font = [UIFont titleFont];
 	self.followingCountLabel.font = [UIFont titleFont];
 
-	self.followerLabel.font = [UIFont mediumFont];
-	self.followingLabel.font = [UIFont mediumFont];
+	self.followerLabel.font = [UIFont smallFont];
+	self.followingLabel.font = [UIFont smallFont];
+	//
+	self.fullNameLabel.textColor = [UIColor whiteColor];
+	self.placeLabel.textColor = [UIColor whiteColor];
+	
+	self.followerCountLabel.textColor = [UIColor whiteColor];
+	self.followingCountLabel.textColor = [UIColor whiteColor];
+	
+	self.followerLabel.textColor = [UIColor whiteColor];
+	self.followingLabel.textColor = [UIColor whiteColor];
+
+	
+	
 
 	[self.coverImageView animateWithFileName:@"flip"];
 	
 	self.avatarImageView.isRounded = YES;
+	
+	self.blurView.alpha = 0.65;
+//	self.backgroundColor = [UIColor blackColor];
+	
+	self.blurView.blurTintColor = [UIColor blackColor];
+	
+	self.addButton.tintColor = [UIColor whiteColor];
 }
 
 
 - (void)setUser:(User *)user {
 	_user = user;
 	if (user) {
-		self.fullNameLabel.text = user.fullName;
+		self.fullNameLabel.text = user.smallFullName;
 		self.placeLabel.text = user.address.address;
 		[self.avatarImageView setImageWithURL:user.avatarUrl];
 	}

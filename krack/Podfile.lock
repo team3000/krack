@@ -30,6 +30,7 @@ PODS:
   - Google-Maps-iOS-SDK (1.8.1)
   - GoogleAnalytics-iOS-SDK (3.0.7)
   - GPUImage (0.1.4)
+  - iOS-blur (0.0.5)
   - JSONModel (0.10.0)
   - MHTextField (0.0.4)
   - NullObjects (0.0.1)
@@ -52,6 +53,7 @@ PODS:
   - UIActivityIndicator-for-SDWebImage (1.0.5):
     - SDWebImage (~> 3.2)
   - UIDevice-Helpers (0.0.2)
+  - UIImage+BlurredFrame (0.0.4)
   - UINavigationBar+Addition (1.0.0)
   - Underscore.m (0.2.1)
   - UzysCircularProgressPullToRefresh (1.0.7)
@@ -68,6 +70,7 @@ DEPENDENCIES:
   - Google-Maps-iOS-SDK (~> 1.8.1)
   - GoogleAnalytics-iOS-SDK (~> 3.0.7)
   - GPUImage (~> 0.1.4)
+  - iOS-blur (~> 0.0.5)
   - JSONModel (~> 0.10.0)
   - MHTextField (~> 0.0.2)
   - NullObjects (~> 0.0.1)
@@ -83,6 +86,7 @@ DEPENDENCIES:
   - TWMessageBarManager (~> 1.3.1)
   - TYMActivityIndicatorView (~> 0.2.0)
   - UIDevice-Helpers (~> 0.0.2)
+  - UIImage+BlurredFrame
   - UINavigationBar+Addition (~> 1.0.0)
   - Underscore.m (~> 0.2.1)
   - UzysCircularProgressPullToRefresh (~> 1.0.5)
@@ -103,6 +107,7 @@ SPEC CHECKSUMS:
   Google-Maps-iOS-SDK: 542561448224b92d790483674b7313b13764e624
   GoogleAnalytics-iOS-SDK: bb285d8eef15a682f1b82971becd0d22edd0e53b
   GPUImage: ac2bde5f4dbea02a81ced6313964cec1f2043ca9
+  iOS-blur: 5ec57b4a72e57a4f8f5f47ff3f59e56c0690b761
   JSONModel: 0990e3b9153278e4b3d9466117e77ce02f58a198
   MHTextField: 4a8fc9ab79e99cf097aaecad0fd60cba3ecff546
   NullObjects: 3d30486dcb34b85121ea00efcc47c881de9ab098
@@ -120,6 +125,7 @@ SPEC CHECKSUMS:
   TYMActivityIndicatorView: b65789b48feca6f6d546831d8ae5ad62acd58403
   UIActivityIndicator-for-SDWebImage: d9e46f1592d04cfbeda67bb6d7bba5348558697b
   UIDevice-Helpers: 58bf1344ef602879d0d681e809e3b8c7cd744c2c
+  UIImage+BlurredFrame: 0c38f5760d72125c47d16001a88faaac573bd35d
   UINavigationBar+Addition: 75b1b709f000aa7de774df19d4fd9098ba939a51
   Underscore.m: f99c166a9fdccfb5069085b6b4263c04b817fc9f
   UzysCircularProgressPullToRefresh: dae115e62fcbaaf599f782562f1655bcde1191e2

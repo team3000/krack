@@ -13,10 +13,29 @@
 #pragma mark - Customs getters
 
 - (NSString *)fullName {
-	NSString *firstName = self.firstName == nil ? @"" : self.firstName;
-	NSString *lastName = self.lastName == nil ? @"" : self.lastName;
-	
-	return [NSString stringWithFormat:@"%@ %@", [firstName capitalizedString], [lastName capitalizedString]];
+	if (_fullName == nil) {
+		NSString *firstName = self.firstName == nil ? @"" : self.firstName;
+		NSString *lastName = self.lastName == nil ? @"" : self.lastName;
+		
+		_fullName = [NSString stringWithFormat:@"%@ %@", [firstName capitalizedString], [lastName capitalizedString]];
+	}
+	return _fullName;
+}
+
+- (NSString *)smallFullName {
+	if (_smallFullName == nil) {
+		NSString *firstName = self.firstName == nil ? @"" : self.firstName;
+		NSString *lastName = self.lastName == nil ? @"" : self.lastName;
+
+		if (lastName) {
+			_smallFullName = [NSString stringWithFormat:@"%@ %@.", [firstName capitalizedString], [[lastName capitalizedString] substringToIndex:1]];
+		}
+		else {
+			_smallFullName = [NSString stringWithFormat:@"%@", [firstName capitalizedString]];
+		}
+		
+	}
+	return _smallFullName;
 }
 
 @end

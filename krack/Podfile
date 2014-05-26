@@ -31,6 +31,8 @@ target "krack" do
         pod 'AHKActionSheet', '~> 0.1.3'
         pod 'FXImageView', '~> 1.3.3'
 	pod 'Google-Maps-iOS-SDK', '~> 1.8.1'
+	pod 'iOS-blur', '~> 0.0.5'
+	pod 'UIImage+BlurredFrame'
 end
 
 target "krackTests" do

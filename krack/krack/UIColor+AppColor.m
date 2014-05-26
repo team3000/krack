@@ -42,7 +42,7 @@
 
 + (UIColor *)backgroundCellColor
 {
-    return [UIColor colorFromHexString:@"#F9F9F9"];
+    return [UIColor colorFromHexString:@"#F1F1F1"];
 }
 
 + (UIColor *)selectedBackgroundColor
