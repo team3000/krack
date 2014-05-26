@@ -7,10 +7,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCollectionViewCell" id="1lU-J4-9r5" customClass="MenuCollectionViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <rect key="frame" x="0.0" y="0.0" width="80" height="60"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <rect key="frame" x="0.0" y="0.0" width="80" height="60"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0D-2z-rdC">
@@ -18,17 +18,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TdL-4y-0MX" customClass="BaseImageView">
-                                <rect key="frame" x="28" y="10" width="25" height="25"/>
+                                <rect key="frame" x="28" y="5" width="25" height="25"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2c-wt-ebG" customClass="BaseLabel">
-                                <rect key="frame" x="0.0" y="45" width="80" height="21"/>
+                                <rect key="frame" x="0.0" y="30" width="80" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfy-DP-ZKY" customClass="BaseLabel">
-                                <rect key="frame" x="0.0" y="65" width="80" height="10"/>
+                                <rect key="frame" x="0.0" y="48" width="80" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <nil key="highlightedColor"/>
@@ -58,7 +58,7 @@
                 <constraint firstItem="r0D-2z-rdC" firstAttribute="top" secondItem="1lU-J4-9r5" secondAttribute="top" id="6dv-Oe-sY6"/>
                 <constraint firstItem="r0D-2z-rdC" firstAttribute="leading" secondItem="1lU-J4-9r5" secondAttribute="leading" id="Fw5-NH-Fys"/>
                 <constraint firstAttribute="trailing" secondItem="r0D-2z-rdC" secondAttribute="trailing" id="HIQ-mi-PdR"/>
-                <constraint firstAttribute="bottom" secondItem="r0D-2z-rdC" secondAttribute="bottom" id="yVF-VE-DoX"/>
+                <constraint firstAttribute="bottom" secondItem="r0D-2z-rdC" secondAttribute="bottom" constant="-20" id="yVF-VE-DoX"/>
             </constraints>
             <size key="customSize" width="84" height="75"/>
             <connections>
